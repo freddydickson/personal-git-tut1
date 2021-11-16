@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-image: url(../img/john.jpg), linear-gradient(to right, rgb(31, 8, 112) , rgba(214, 212, 219, 0.596));
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* width: 100%; */
+    
+    background-blend-mode: overlay;
+}
+.container .sec1{
+    padding-top: 10rem !important;
+}
+.horizontal{
+    color: white !important;
+    box-shadow: rgb(168, 163, 163) 1px 1px 1px 0px;
+}
+
+.fa{
+    background-color: rgba(40, 40, 92, 0.137);
+    border-radius: 50%;
+    font-size: 15px !important;
+    padding: 10px;
+    width: 2rem;
+    height: 2rem;
+}
+/* .navbar{
+    border-bottom: whitesmoke solid 2px;
+    
+} */
+.btn2{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.btn1{
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 3px;
+    font-weight: bold;
+    color: rgb(9, 9, 73);
+}
+.row{
+    padding:0;
+    margin: 0;
+}
+.rotate{
+    transform:rotate(90deg);
+    margin: 0 !important;
+    padding: 0 !important;
+    position: absolute;
+    right: 0;
+    bottom: -20%;
+    
+}
